@@ -1,0 +1,168 @@
+.rouge-script-regular {
+    font-family: "Rouge Script", "Open Sans","Serif";
+    font-weight: 400;
+    font-style: italic;
+  }
+
+  .active{
+    color: #F6C343;
+  }
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Space Grotesk", serif;
+  }
+  .text-underline{
+    bottom: -10px;
+   border-bottom: 5px solid #F6C343;
+  
+  }
+  .nav-link:hover{
+    /* bottom: -10px;
+    border-bottom: 5px solid #F6C343; */
+    color: #F6C343;
+  }
+  
+  .nav-item .nav-link.active{
+    color: #F6C343;
+  }
+  .centercontent{
+    position:absolute;
+    max-width: 75%;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+  .typewriter {
+    display: inline-block;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: 0em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret 1.12s ease-in-out infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 24ch }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+  }
+
+  .slide-in.visible {
+    opacity: 0;
+    transform: translateY(-10%);
+    animation: slide-in  0.75s forwards;
+    color: #333;
+}
+
+@keyframes slide-in {
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+.overlay-image {
+  background: linear-gradient(rgba(255, 0, 0, 0.5), rgba(0, 0, 255, 0.5));
+  background-blend-mode: overlay;
+  /* Blends the gradient with the image */
+  background-size: cover;
+}
+@media only screen and (max-width: 640px) {
+ #p-designation{
+  font-size: medium;
+ }
+ #p-greet{
+  font-size: medium;
+ }
+ #p-desc {
+  font-size: xx-small;
+ }
+ #cv-btn{
+  white-space: nowrap;
+  font-size: x-small;
+ }
+ #contact-btn{
+  white-space: nowrap;
+  font-size: x-small;
+ }
+ .centercontent{
+  max-width: 85%;
+ }
+ .custom-card{
+  width: 16rem;
+ }
+ #carouselExampleAutoplaying .carousel-inner .carousel-item img{
+  height: 400px;
+ }
+ #nav-logo img{
+  width: 100px;
+ }
+
+}
+@media only screen and (min-width: 640px) {
+  .custom-card{
+    width: 20rem;
+   }
+   #p-desc {
+    font-size: small;
+   }
+  } 
+  @media only screen and (min-width: 768px) {
+    .custom-card{
+      width: 22rem;
+     }
+     #p-desc {
+      font-size: medium;
+     }
+    } 
+    @media only screen and (min-width: 992px) {
+      .custom-card{
+        width: 28rem;
+       }
+       #p-desc {
+        font-size: medium;
+       }
+      } 
+/* .fade-in-delayed {
+  opacity: 0;
+  animation: fadeIn 2s forwards;
+  animation-delay: 1s;
+}
+
+@keyframes fadeIn {
+  to {
+      opacity: 1;
+  }
+} */
+/* html {
+  font-size: 1rem;
+}
+
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: 1.2rem;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 1.4rem;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: 1.6rem;
+  }
+} */
