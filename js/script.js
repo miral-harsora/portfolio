@@ -47,12 +47,6 @@ document.addEventListener('DOMContentLoaded', function () {
                 },
                     800);
                 break;
-            // case "Experience":
-            //     $('html,body').animate({
-            //         scrollTop: $("#exp-section").offset().top
-            //     },
-            //         800);
-            //     break;
             case "Skills":
                 $('html,body').animate({
                     scrollTop: $("#skills-section").offset().top - offset
