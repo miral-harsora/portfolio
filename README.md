@@ -1,7 +1,7 @@
 # 💼 Miral Harsora — Portfolio Website
 
 Welcome to my personal portfolio website!  
-🌐 [Live Site](https://miralsh.github.io/portfolio/)
+🌐 [Live Site](https://miral-harsora.github.io/portfolio/)
 
 ## 📌 About
 
